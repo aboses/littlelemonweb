@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './Components/Nav';
 import Main from './Components/Main';
+import Menu from './Components/Menu';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Nav/>
       <Main/>
+      <Menu/>
     </>
   )
 }
