@@ -1,5 +1,5 @@
 import React from "react"
-import small_logo from "../images/Logo .svg"
+import small_logo from "../images/Logo.svg"
 
 const Footer = () => {
     return(
@@ -23,7 +23,7 @@ const Footer = () => {
             <div>
                 <h3>Contact</h3>
             <ul>
-            <li>Address: <br/> 123 Town Street, Chicago</li>
+            <li>Address: <br/> 123 Street, Chicago</li>
                 <li>Phone: <br/> +00 123 456 789</li>
                 <li>Email: <br/> little@lemon.com</li>
             </ul>
