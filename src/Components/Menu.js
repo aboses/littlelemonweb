@@ -3,7 +3,7 @@ import recipes from "../recipes";
 import Swal from "sweetalert2";
 
 const Menu = () => {
-console.log(recipes[0]);
+ //console.log(recipes[0]);
 const handleOrder = (id) => {
     console.log(id);
 

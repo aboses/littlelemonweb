@@ -1,4 +1,4 @@
-import React, { useReducer} from "react";
+import React, {useReducer} from "react";
 import { Route, Routes, useNavigate } from "react-router";
 import Booking from "./Booking";
 import ConfirmedBooking from "./ConfirmedBooking";
@@ -33,7 +33,7 @@ const Main = () => {
         }
         return result;
     };
-    const submitAPI = function(formData) {
+    const submitAPI = function() {
         return true;
     };
 
@@ -41,7 +41,7 @@ const Main = () => {
     const [state, dispatch] = useReducer(updateTimes, initialState);
 
     function updateTimes(state, date) {
-        return {availableTimes: fetchAPI(new Date(date))}
+        return {availableTimes: fetchAPI(new Date(date))};
     }
     const navigate = useNavigate();
     function submitForm (formData) {
