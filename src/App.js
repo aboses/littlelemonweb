@@ -1,18 +1,15 @@
+import React from 'react';
 import './App.css';
-import Header from './Header';
-import Navigation from './Nav';
-import Main from './Main';
-import Footer from './Footer';
+import Nav from './Components/Nav';
+import Main from './Components/Main';
+
+
 function App() {
   return (
     <>
-      <Header/>
-      <Navigation/>
+      <Nav/>
       <Main/>
-      <Footer/>
     </>
   )
 }
-
-
 export default App;
